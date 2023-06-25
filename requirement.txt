@@ -1,0 +1,10 @@
+librerias 
+
+express
+bcryptjs
+cookie-parser
+dotenv
+ejs
+jsonwebtoken
+mysql
+express-session
