@@ -14,3 +14,22 @@ ejs
 jsonwebtoken
 mysql
 express-session
+
+se debe crear una carpeta dentro del proyecto llamada env
+con un archivo con nombre .env con los siguientes datos: 
+
+//definimos las variables de entorno
+
+DB_HOST = localhost
+DB_USER = root
+DB_PASS = root
+DB_DATABASE = login
+
+//Definimos los datos para JWT
+JWT_SECRETO = super_secret
+
+//tiempo en el que expira el token
+JWT_TIEMPO_EXPIRA = 7d
+
+//tiempo en el que expira la cookie
+JWT_COOKIE_EXPIRES = 90
