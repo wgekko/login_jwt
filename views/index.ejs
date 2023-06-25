@@ -38,7 +38,12 @@
     <span class="navbar-toggler-icon"></span>
   </button>
  
-  <div class="navbar-nav">
+  <div class="navbar-nav d-block justify-content-between  align-items-center border-bottom">
+    <h2>Bienvenido:
+      <% if (user) { %>
+        <span class="badge bg-secondary"><%= user.name %></span>
+      <% } %>
+    </h2>
     <div class="nav-item text-nowrap">
       <a type="button" class="px-3 btn btn-light" href="logout">Logout</a>
     </div>
