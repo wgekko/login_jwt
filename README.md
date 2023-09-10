@@ -30,6 +30,13 @@ JWT_SECRETO = super_secret
 
 //tiempo en el que expira el token
 JWT_TIEMPO_EXPIRA = 7d
-
 //tiempo en el que expira la cookie
 JWT_COOKIE_EXPIRES = 90
+
+
+https://github.com/wgekko/login_jwt/assets/62272491/15effcbc-14d9-45a2-a573-014db123f184
+
+
+
+
+
